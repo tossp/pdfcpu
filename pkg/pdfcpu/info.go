@@ -127,9 +127,9 @@ func (ctx *Context) ensureInfoDict() error {
 		return err
 	}
 
-	d.Update("CreationDate", StringLiteral(now))
+// 	d.Update("CreationDate", StringLiteral(now))
 	d.Update("ModDate", StringLiteral(now))
-	d.Update("Producer", StringLiteral(v))
+// 	d.Update("Producer", StringLiteral(v))
 
 	return nil
 }
